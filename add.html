@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="module" src="add.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="media/logo.png">
+        <title>Academic Squad</title>
+    </head>
+    <body class="background">
+        <ul class="header">
+            <li><a class="icon" href="/"><img class="icon" src="media/logo.png"></a></li>
+            <div class="search_div">
+                <input type="text" name="q" tabindex="1" autocomplete="off" id="search" class="search" autocapitalize="off" autocorrect="off" placeholder="Search for topics">
+            </div>
+            <li class="right">
+                <a class="icon" href="add"><img class="add_img" src="media/add.png"></a>
+            </li>
+        </ul>
+        <form id="question_form">
+            <input type="text" id="form_title" maxlength="50" minlength="1" placeholder="Title">
+            <textarea id="form_description" maxlength="500" minlength="1" placeholder="Description"></textarea>
+            <textarea id="form_name" maxlength="10" minlength="1" placeholder="Username"></textarea>
+            <div id="bottom_row">
+                <input type="submit" id="form_submit">
+            </div>
+        </form>
+    </body>
+</html>

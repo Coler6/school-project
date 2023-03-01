@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-color: #86879e;
+}
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7a83e8;
+    height: 76px;
+}
+.right {
+    float:right;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+li {float: left;}
+li a, .dropbtn {
+    display: inline-block;
+    color: #838487;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li .icon {
+    padding:1px 2px;
+    vertical-align: top;
+    height: 74px;
+}
+li .add_img {
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    margin-top: 25%;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    color: white;
+    transition: 100ms; 
+}
+li.dropdown {
+    display: inline-block;
+    height: 100%;
+    width: 46px;
+}
+.search {
+    text-align: left;
+    vertical-align: middle;
+    height: 100%; 
+    width: 100%;
+    background-color:white;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding-left: 50px;
+    font-size: 30px;
+    background-image: url("media/search.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 35px 35px;
+}
+.search_div {
+    float:top;
+    height:80%; 
+    width: 50%;
+    margin-left: 50%;
+    margin-top:5px;
+    margin-bottom: 5px; 
+    transform: translate(-50%);
+}
+.search .icon {
+    margin: auto;
+    height: 40%;
+}
+.content {
+    padding: 10px;
+    margin: 0;
+    min-height: 750px;
+}
+.row {
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-bottom: calc(2 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    flex-shrink: 0;
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    box-sizing: border-box;
+    padding-right: calc(var(--bs-gutter-x) * 3);
+    padding-left: calc(var(--bs-gutter-x) * 3);
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 33%;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.h5, h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-size: 1.60rem;
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+a + .h5:hover {
+    text-decoration: underline;
+}
+.mb-2 {
+    margin-bottom: .75rem!important;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    text-align: center;
+}
+.a2 {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Arial;
+    transition: color .2s, font-size .2s;
+}
+.a2:hover {
+    color: rgb(50, 50, 50);
+    text-decoration: underline;
+    font-size: 1.15rem;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    padding-top: 20px;
+}
+.footer {
+    background-color: #7a83e8;
+    padding: 10px;
+    padding-top: 15px;
+    min-height: 200px;
+    width: calc(100% - 20px);
+}
+.copyright {
+    text-align: center;
+    margin-top: 15px;
+}
+.question_div {
+    height: 367px;
+    background-color: #8d95f2;
+    border-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 75%;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+#description {
+    font-family: Arial;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    height: 190px;
+}
+.question_footer {
+    padding: 4px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#username {
+    overflow:hidden;
+    display: block;
+    font-family: arial;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+#datetime {
+    overflow:hidden;
+    display: block;
+    font-family: arial;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+.comment {
+    height: 72px;
+    width: calc(100% - 4px);
+    display: flex;
+    border: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: none;
+    background-color: white;
+}
+#comment_name_form {
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+#comment_desc_form {
+    font-size: 16px;
+    width: 60%;
+}
+#comment_desc_form, #comment_name_form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    resize: none;
+    padding: 10px;
+    border: none;
+    border-right: 2px solid gray;
+    background-color: transparent;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-height: 100%;
+    min-height: 50px;
+    box-sizing: border-box;
+    display:inline-flex;
+}
+#comment_submit_form {
+    height: 100%;
+    width: 10%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom-right-radius: 17px;
+    background-color: transparent;
+}
+#comment_submit_form:hover {
+    cursor: pointer;
+}
+#comment_submit_form:active {
+    background-color: gray;
+}
+hr {
+    display: block;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: black;
+}
+#question_form {
+    background-color: #8d95f2;
+    height: calc(100vh - 76px);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#question_form #form_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 93%;
+    height: 10%;
+    padding: 2%;
+    margin: 1.5%;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 50px;
+}
+#question_form #form_title, #question_form #form_description, #question_form #form_name, #comment_desc_form, #comment_name_form:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+#question_form #form_description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 93%;
+    height: 40%;
+    padding: 2%;
+    margin: 1.5%;
+    margin-top: 0;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 25px;
+    text-anchor: start;
+    resize: none;
+}
+#question_form #form_name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 93%;
+    height: 8%;
+    padding: 2%;
+    margin: 0 1.5%;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 25px;
+    text-anchor: start;
+    resize: none;
+    font-size: 38px;
+}
+#question_form #bottom_row {
+    display: flex;
+    flex-direction:row-reverse;
+    height: 10%;
+}
+#question_form #bottom_row #form_submit {
+    background-color: white;
+    font-family: "Noto Sans", Arial,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+    margin: 2%;
+    margin-bottom: 1%;
+    width: 15%;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: black;
+    border-style:solid;
+    position: absolute;
+    bottom:0px;
+}
+#question_form #bottom_row #form_submit:active {
+    background-color: gray;
+}
+.comment_header {
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    font-size: 22px;
+}
+.comment_space {
+    font-family: arial;
+    font-size: 20px;
+    height: 25px;
+    padding: 2px;
+    padding-left: 10px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+.comment_space::-webkit-scrollbar {
+    display: none;
+}
+#comments_section {
+    display: none;
+}
+.no_result {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    display: none;
+    height: calc(100vh - 225px - 76px)
+}
+.about_div {
+    font-size: 20px;
+    font-family: arial;
+    height: calc(100vh - 225px - 96px);
+    background-color: #8d95f2;
+    padding: 10px;
+}
+.div_404 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: calc(100vh - 76px);
+    text-align: center;
+    vertical-align: top;
+    font-size: 50px;
+}
+#screen {
+    top: 76px;
+    left: 0px;
+    position: absolute;
+    background-color: transparent;
+}

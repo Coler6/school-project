@@ -1,0 +1,54 @@
+{
+    "00000": {
+        "title": "Hypothesis vs theory",
+        "description": "What is the difference between a hypothesis and a theory?",
+        "user": "Xavier",
+        "created_on": 1677471211929,
+        "comments": [
+            {
+                "name": "Terry",
+                "description": "A hypothesis is a proposed explanation, a theory is a well-substantiated explanation."
+            },
+            {
+                "name": "Xavier",
+                "description": "Thanks Terry for that response!"
+            }
+        ]
+    },
+    "00001": {
+        "title": "Circulatory System",
+        "description": "How does the circulatory system work?\n",
+        "user": "Julius",
+        "created_on": 1677471243329,
+        "comments": [
+            {
+                "name": "Alex",
+                "description": "Blood carries oxygen and nutrients to body cells, and removes waste products, via the heart."
+            },
+            {
+                "name": "Leo",
+                "description": "I needed this too, thanks a bunch!"
+            }
+        ]
+    },
+    "00002": {
+        "title": "DNA Question",
+        "description": "I'm interested in learning more about how DNA works. Could you explain the structure of DNA to me, including the function and location of the different components? Additionally, how does the structure of DNA relate to the process of DNA replication?",
+        "user": "John",
+        "created_on": 1677471512125,
+        "comments": [
+            {
+                "name": "Intellixis",
+                "description": "DNA is a molecule that stores genetic information, has a double helix structure made of nucleotides,"
+            },
+            {
+                "name": "John",
+                "description": "Good to know, thanks!"
+            },
+            {
+                "name": "Midgett",
+                "description": "This is a test comment."
+            }
+        ]
+    }
+}
